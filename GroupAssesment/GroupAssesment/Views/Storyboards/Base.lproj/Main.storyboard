@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ge3-px-VYc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cdi-Ws-iIS">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -115,10 +115,40 @@
             </objects>
             <point key="canvasLocation" x="1842" y="-498"/>
         </scene>
+        <!--Launch Screen View Controller-->
+        <scene sceneID="pqi-yX-ssI">
+            <objects>
+                <viewController id="cdi-Ws-iIS" customClass="LaunchScreenViewController" customModule="GroupAssesment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ims-bN-5pI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGD-ob-bqi">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="585-R5-Quo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="fGD-ob-bqi" secondAttribute="bottom" id="5et-0c-at5"/>
+                            <constraint firstItem="fGD-ob-bqi" firstAttribute="leading" secondItem="585-R5-Quo" secondAttribute="leading" id="PxF-zj-XSh"/>
+                            <constraint firstItem="fGD-ob-bqi" firstAttribute="trailing" secondItem="585-R5-Quo" secondAttribute="trailing" id="h7c-xW-V1T"/>
+                            <constraint firstItem="fGD-ob-bqi" firstAttribute="top" secondItem="Ims-bN-5pI" secondAttribute="top" id="vKH-Hf-cxO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="videoLayer" destination="fGD-ob-bqi" id="1UI-3u-M0a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s6G-KJ-Fjh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-852" y="133"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="AiA-Fz-fYi">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ge3-px-VYc" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="mainScreensVC" automaticallyAdjustsScrollViewInsets="NO" id="ge3-px-VYc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mRC-4G-SMz">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

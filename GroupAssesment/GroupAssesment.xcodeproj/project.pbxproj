@@ -12,12 +12,6 @@
 		B53F8F1226EFA42A00805334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F1026EFA42A00805334 /* Main.storyboard */; };
 		B53F8F1426EFA42B00805334 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F1326EFA42B00805334 /* Assets.xcassets */; };
 		B53F8F1726EFA42B00805334 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F1526EFA42B00805334 /* LaunchScreen.storyboard */; };
-
-		FC27E21226EFB23B00F96B0F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21126EFB23B00F96B0F /* Character.swift */; };
-		FC27E21626EFB2ED00F96B0F /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21526EFB2ED00F96B0F /* CharacterController.swift */; };
-		FC27E21826EFB6BD00F96B0F /* CharacterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */; };
-		FC27E21B26EFB77B00F96B0F /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21A26EFB77B00F96B0F /* CharacterCollectionViewCell.swift */; };
-
 		B53F8F2A26EFC20D00805334 /* izz-kyle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2326EFC20C00805334 /* izz-kyle.mp4 */; };
 		B53F8F2B26EFC20D00805334 /* izz-ben.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2426EFC20C00805334 /* izz-ben.mp4 */; };
 		B53F8F2C26EFC20D00805334 /* izz-del.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2526EFC20D00805334 /* izz-del.mp4 */; };
@@ -26,6 +20,12 @@
 		B53F8F2F26EFC20D00805334 /* ben-del.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2826EFC20D00805334 /* ben-del.mp4 */; };
 		B53F8F3026EFC20D00805334 /* ben-kyle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2926EFC20D00805334 /* ben-kyle.mp4 */; };
 		B53F8F3226EFC2DA00805334 /* SMBSound.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */; };
+		B53F8F3426EFCB1300805334 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F8F3326EFCB1300805334 /* LaunchScreenViewController.swift */; };
+		B53F8F3626EFD32F00805334 /* iphoneLaunchScreen.mov in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F3526EFD32F00805334 /* iphoneLaunchScreen.mov */; };
+		FC27E21226EFB23B00F96B0F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21126EFB23B00F96B0F /* Character.swift */; };
+		FC27E21626EFB2ED00F96B0F /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21526EFB2ED00F96B0F /* CharacterController.swift */; };
+		FC27E21826EFB6BD00F96B0F /* CharacterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */; };
+		FC27E21B26EFB77B00F96B0F /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21A26EFB77B00F96B0F /* CharacterCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,12 +36,6 @@
 		B53F8F1326EFA42B00805334 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B53F8F1626EFA42B00805334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B53F8F1826EFA42B00805334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
-		FC27E21126EFB23B00F96B0F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		FC27E21526EFB2ED00F96B0F /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
-		FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewController.swift; sourceTree = "<group>"; };
-		FC27E21A26EFB77B00F96B0F /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
-
 		B53F8F2326EFC20C00805334 /* izz-kyle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "izz-kyle.mp4"; sourceTree = "<group>"; };
 		B53F8F2426EFC20C00805334 /* izz-ben.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "izz-ben.mp4"; sourceTree = "<group>"; };
 		B53F8F2526EFC20D00805334 /* izz-del.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "izz-del.mp4"; sourceTree = "<group>"; };
@@ -50,7 +44,12 @@
 		B53F8F2826EFC20D00805334 /* ben-del.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ben-del.mp4"; sourceTree = "<group>"; };
 		B53F8F2926EFC20D00805334 /* ben-kyle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ben-kyle.mp4"; sourceTree = "<group>"; };
 		B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SMBSound.mp4; sourceTree = "<group>"; };
-
+		B53F8F3326EFCB1300805334 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		B53F8F3526EFD32F00805334 /* iphoneLaunchScreen.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = iphoneLaunchScreen.mov; sourceTree = "<group>"; };
+		FC27E21126EFB23B00F96B0F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		FC27E21526EFB2ED00F96B0F /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
+		FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewController.swift; sourceTree = "<group>"; };
+		FC27E21A26EFB77B00F96B0F /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +88,7 @@
 				B53F8F2526EFC20D00805334 /* izz-del.mp4 */,
 				B53F8F2326EFC20C00805334 /* izz-kyle.mp4 */,
 				B53F8F2726EFC20D00805334 /* kyle-del.mp4 */,
+				B53F8F3526EFD32F00805334 /* iphoneLaunchScreen.mov */,
 				B53F8F2626EFC20D00805334 /* LaunchScreen.mp4 */,
 				B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */,
 				B53F8F2126EFA46600805334 /* Views */,
@@ -123,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */,
+				B53F8F3326EFCB1300805334 /* LaunchScreenViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -230,6 +231,7 @@
 				B53F8F2F26EFC20D00805334 /* ben-del.mp4 in Resources */,
 				B53F8F1426EFA42B00805334 /* Assets.xcassets in Resources */,
 				B53F8F3226EFC2DA00805334 /* SMBSound.mp4 in Resources */,
+				B53F8F3626EFD32F00805334 /* iphoneLaunchScreen.mov in Resources */,
 				B53F8F2E26EFC20D00805334 /* kyle-del.mp4 in Resources */,
 				B53F8F2A26EFC20D00805334 /* izz-kyle.mp4 in Resources */,
 				B53F8F1226EFA42A00805334 /* Main.storyboard in Resources */,
@@ -253,6 +255,7 @@
 				FC27E21826EFB6BD00F96B0F /* CharacterCollectionViewController.swift in Sources */,
 				FC27E21626EFB2ED00F96B0F /* CharacterController.swift in Sources */,
 				FC27E21226EFB23B00F96B0F /* Character.swift in Sources */,
+				B53F8F3426EFCB1300805334 /* LaunchScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
