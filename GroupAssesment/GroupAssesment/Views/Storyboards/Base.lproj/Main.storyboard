@@ -59,7 +59,11 @@
                         </connections>
                     </collectionView>
                     <navigationItem key="navigationItem" title="See the team" id="zF0-qt-SsH">
-                        <barButtonItem key="rightBarButtonItem" title="Fight" id="FfG-ZX-GhI"/>
+                        <barButtonItem key="rightBarButtonItem" title="Fight" id="FfG-ZX-GhI">
+                            <connections>
+                                <segue destination="edU-R2-9wV" kind="show" id="1BK-Wk-dSE"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rua-Tp-Srj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
