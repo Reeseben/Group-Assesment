@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+
+		2739B5BA26EFDAD4005A7A13 /* boo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 2739B5B926EFDAD4005A7A13 /* boo.m4a */; };
+		2739B5BC26EFDB3E005A7A13 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2739B5BB26EFDB3E005A7A13 /* ResultsViewController.swift */; };
+
 		A35C33C926EFCB1A00BC2D08 /* FightVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C33C826EFCB1A00BC2D08 /* FightVideoViewController.swift */; };
 		A35C33CB26EFD68800BC2D08 /* challenger.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A35C33CA26EFD68800BC2D08 /* challenger.mp4 */; };
+
 		B53F8F0B26EFA42A00805334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F8F0A26EFA42A00805334 /* AppDelegate.swift */; };
 		B53F8F0D26EFA42A00805334 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F8F0C26EFA42A00805334 /* SceneDelegate.swift */; };
 		B53F8F1226EFA42A00805334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F1026EFA42A00805334 /* Main.storyboard */; };
@@ -22,13 +27,19 @@
 		B53F8F2F26EFC20D00805334 /* ben-del.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2826EFC20D00805334 /* ben-del.mp4 */; };
 		B53F8F3026EFC20D00805334 /* ben-kyle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2926EFC20D00805334 /* ben-kyle.mp4 */; };
 		B53F8F3226EFC2DA00805334 /* SMBSound.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */; };
-
 		B53F8F3426EFCB1300805334 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F8F3326EFCB1300805334 /* LaunchScreenViewController.swift */; };
 		B53F8F3626EFD32F00805334 /* iphoneLaunchScreen.mov in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F3526EFD32F00805334 /* iphoneLaunchScreen.mov */; };
+
 		FC27E21226EFB23B00F96B0F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21126EFB23B00F96B0F /* Character.swift */; };
 		FC27E21626EFB2ED00F96B0F /* CharacterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21526EFB2ED00F96B0F /* CharacterController.swift */; };
 		FC27E21826EFB6BD00F96B0F /* CharacterCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */; };
 		FC27E21B26EFB77B00F96B0F /* CharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21A26EFB77B00F96B0F /* CharacterCollectionViewCell.swift */; };
+
+		FC27E21D26EFCA4400F96B0F /* CharacterStatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21C26EFCA4400F96B0F /* CharacterStatsViewController.swift */; };
+
+		2739B5B926EFDAD4005A7A13 /* boo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = boo.m4a; path = ../../../../boo.m4a; sourceTree = "<group>"; };
+		2739B5BB26EFDB3E005A7A13 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +68,9 @@
 		FC27E21526EFB2ED00F96B0F /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
 		FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewController.swift; sourceTree = "<group>"; };
 		FC27E21A26EFB77B00F96B0F /* CharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+
+		FC27E21C26EFCA4400F96B0F /* CharacterStatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStatsViewController.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +111,11 @@
 				B53F8F2726EFC20D00805334 /* kyle-del.mp4 */,
 				B53F8F3526EFD32F00805334 /* iphoneLaunchScreen.mov */,
 				B53F8F2626EFC20D00805334 /* LaunchScreen.mp4 */,
+
+				2739B5B926EFDAD4005A7A13 /* boo.m4a */,
+
 				A35C33CA26EFD68800BC2D08 /* challenger.mp4 */,
+
 				B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */,
 				B53F8F2126EFA46600805334 /* Views */,
 				FC27E21026EFB22300F96B0F /* Models */,
@@ -131,6 +149,10 @@
 			isa = PBXGroup;
 			children = (
 				FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */,
+
+				FC27E21C26EFCA4400F96B0F /* CharacterStatsViewController.swift */,
+				2739B5BB26EFDB3E005A7A13 /* ResultsViewController.swift */,
+
 
 				A35C33C826EFCB1A00BC2D08 /* FightVideoViewController.swift */,
 
@@ -243,6 +265,7 @@
 				B53F8F2F26EFC20D00805334 /* ben-del.mp4 in Resources */,
 				A35C33CB26EFD68800BC2D08 /* challenger.mp4 in Resources */,
 				B53F8F1426EFA42B00805334 /* Assets.xcassets in Resources */,
+				2739B5BA26EFDAD4005A7A13 /* boo.m4a in Resources */,
 				B53F8F3226EFC2DA00805334 /* SMBSound.mp4 in Resources */,
 				B53F8F3626EFD32F00805334 /* iphoneLaunchScreen.mov in Resources */,
 				B53F8F2E26EFC20D00805334 /* kyle-del.mp4 in Resources */,
@@ -263,15 +286,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC27E21B26EFB77B00F96B0F /* CharacterCollectionViewCell.swift in Sources */,
+				FC27E21D26EFCA4400F96B0F /* CharacterStatsViewController.swift in Sources */,
 				B53F8F0B26EFA42A00805334 /* AppDelegate.swift in Sources */,
 				B53F8F0D26EFA42A00805334 /* SceneDelegate.swift in Sources */,
 				FC27E21826EFB6BD00F96B0F /* CharacterCollectionViewController.swift in Sources */,
 				FC27E21626EFB2ED00F96B0F /* CharacterController.swift in Sources */,
 				FC27E21226EFB23B00F96B0F /* Character.swift in Sources */,
 
+				2739B5BC26EFDB3E005A7A13 /* ResultsViewController.swift in Sources */,
+
+
 				A35C33C926EFCB1A00BC2D08 /* FightVideoViewController.swift in Sources */,
 
 				B53F8F3426EFCB1300805334 /* LaunchScreenViewController.swift in Sources */,
+
 
 			);
 			runOnlyForDeploymentPostprocessing = 0;
