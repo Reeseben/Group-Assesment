@@ -35,6 +35,16 @@ class CharacterCollectionViewController: UICollectionViewController {
     
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toDetailVC" {
+            guard let cell = sender as? CharacterCollectionViewCell,
+                  let indexPath = collectionView.indexPath(for: cell),
+                  let destinationVC = segue.destination as? CharacterStatsViewController else { return }
+            let characterToSend = CharacterController.character[indexPath.row]
+            destinationVC.character = characterToSend
+        }
+    }
 
 }//end of class
 

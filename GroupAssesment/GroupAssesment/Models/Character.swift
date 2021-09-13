@@ -14,12 +14,18 @@ class Character {
     var photo: UIImage?
     var bio: String
     var armor: Int
+    var photoTwo: UIImage?
+    var wins: Int
+    var losses: Int
     
-    init(name: String, bio: String, photo: UIImage?, hp: Int, armor: Int) {
+    init(name: String, bio: String, photo: UIImage?, hp: Int, armor: Int, photoTwo: UIImage?, wins: Int, losses: Int) {
         self.name = name
         self.bio = bio
         self.photo = photo
         self.hp = hp
         self.armor = armor
+        self.photoTwo = photo
+        self.wins = wins
+        self.losses = losses        
     }
 }
