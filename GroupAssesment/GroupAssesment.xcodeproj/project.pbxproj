@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A35C33C926EFCB1A00BC2D08 /* FightVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35C33C826EFCB1A00BC2D08 /* FightVideoViewController.swift */; };
 		A35C33CB26EFD68800BC2D08 /* challenger.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A35C33CA26EFD68800BC2D08 /* challenger.mp4 */; };
+		A35C33CD26EFDC1000BC2D08 /* fight.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A35C33CC26EFDC1000BC2D08 /* fight.mp4 */; };
 		B53F8F0B26EFA42A00805334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F8F0A26EFA42A00805334 /* AppDelegate.swift */; };
 		B53F8F0D26EFA42A00805334 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F8F0C26EFA42A00805334 /* SceneDelegate.swift */; };
 		B53F8F1226EFA42A00805334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F1026EFA42A00805334 /* Main.storyboard */; };
@@ -22,7 +23,6 @@
 		B53F8F2F26EFC20D00805334 /* ben-del.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2826EFC20D00805334 /* ben-del.mp4 */; };
 		B53F8F3026EFC20D00805334 /* ben-kyle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2926EFC20D00805334 /* ben-kyle.mp4 */; };
 		B53F8F3226EFC2DA00805334 /* SMBSound.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */; };
-
 		B53F8F3426EFCB1300805334 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F8F3326EFCB1300805334 /* LaunchScreenViewController.swift */; };
 		B53F8F3626EFD32F00805334 /* iphoneLaunchScreen.mov in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F3526EFD32F00805334 /* iphoneLaunchScreen.mov */; };
 		FC27E21226EFB23B00F96B0F /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E21126EFB23B00F96B0F /* Character.swift */; };
@@ -34,6 +34,7 @@
 /* Begin PBXFileReference section */
 		A35C33C826EFCB1A00BC2D08 /* FightVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightVideoViewController.swift; sourceTree = "<group>"; };
 		A35C33CA26EFD68800BC2D08 /* challenger.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = challenger.mp4; sourceTree = "<group>"; };
+		A35C33CC26EFDC1000BC2D08 /* fight.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fight.mp4; sourceTree = "<group>"; };
 		B53F8F0726EFA42A00805334 /* GroupAssesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupAssesment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53F8F0A26EFA42A00805334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B53F8F0C26EFA42A00805334 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,10 +50,8 @@
 		B53F8F2826EFC20D00805334 /* ben-del.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ben-del.mp4"; sourceTree = "<group>"; };
 		B53F8F2926EFC20D00805334 /* ben-kyle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ben-kyle.mp4"; sourceTree = "<group>"; };
 		B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SMBSound.mp4; sourceTree = "<group>"; };
-
 		B53F8F3326EFCB1300805334 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		B53F8F3526EFD32F00805334 /* iphoneLaunchScreen.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = iphoneLaunchScreen.mov; sourceTree = "<group>"; };
-
 		FC27E21126EFB23B00F96B0F /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		FC27E21526EFB2ED00F96B0F /* CharacterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterController.swift; sourceTree = "<group>"; };
 		FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCollectionViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +96,7 @@
 				B53F8F2726EFC20D00805334 /* kyle-del.mp4 */,
 				B53F8F3526EFD32F00805334 /* iphoneLaunchScreen.mov */,
 				B53F8F2626EFC20D00805334 /* LaunchScreen.mp4 */,
+				A35C33CC26EFDC1000BC2D08 /* fight.mp4 */,
 				A35C33CA26EFD68800BC2D08 /* challenger.mp4 */,
 				B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */,
 				B53F8F2126EFA46600805334 /* Views */,
@@ -131,11 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				FC27E21726EFB6BD00F96B0F /* CharacterCollectionViewController.swift */,
-
 				A35C33C826EFCB1A00BC2D08 /* FightVideoViewController.swift */,
-
 				B53F8F3326EFCB1300805334 /* LaunchScreenViewController.swift */,
-
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -251,6 +248,7 @@
 				B53F8F2B26EFC20D00805334 /* izz-ben.mp4 in Resources */,
 				B53F8F2C26EFC20D00805334 /* izz-del.mp4 in Resources */,
 				B53F8F3026EFC20D00805334 /* ben-kyle.mp4 in Resources */,
+				A35C33CD26EFDC1000BC2D08 /* fight.mp4 in Resources */,
 				B53F8F2D26EFC20D00805334 /* LaunchScreen.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,11 +266,8 @@
 				FC27E21826EFB6BD00F96B0F /* CharacterCollectionViewController.swift in Sources */,
 				FC27E21626EFB2ED00F96B0F /* CharacterController.swift in Sources */,
 				FC27E21226EFB23B00F96B0F /* Character.swift in Sources */,
-
 				A35C33C926EFCB1A00BC2D08 /* FightVideoViewController.swift in Sources */,
-
 				B53F8F3426EFCB1300805334 /* LaunchScreenViewController.swift in Sources */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

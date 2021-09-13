@@ -14,7 +14,7 @@ class FightVideoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "challenger", ofType: "mp4")!))
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "fight", ofType: "mp4")!))
         
         let layer = AVPlayerLayer(player:  player)
         layer.frame = view.bounds
