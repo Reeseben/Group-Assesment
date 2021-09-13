@@ -20,6 +20,7 @@
 		B53F8F2E26EFC20D00805334 /* kyle-del.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2726EFC20D00805334 /* kyle-del.mp4 */; };
 		B53F8F2F26EFC20D00805334 /* ben-del.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2826EFC20D00805334 /* ben-del.mp4 */; };
 		B53F8F3026EFC20D00805334 /* ben-kyle.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F2926EFC20D00805334 /* ben-kyle.mp4 */; };
+		B53F8F3226EFC2DA00805334 /* SMBSound.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B53F8F2726EFC20D00805334 /* kyle-del.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kyle-del.mp4"; sourceTree = "<group>"; };
 		B53F8F2826EFC20D00805334 /* ben-del.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ben-del.mp4"; sourceTree = "<group>"; };
 		B53F8F2926EFC20D00805334 /* ben-kyle.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ben-kyle.mp4"; sourceTree = "<group>"; };
+		B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SMBSound.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				B53F8F2326EFC20C00805334 /* izz-kyle.mp4 */,
 				B53F8F2726EFC20D00805334 /* kyle-del.mp4 */,
 				B53F8F2626EFC20D00805334 /* LaunchScreen.mp4 */,
+				B53F8F3126EFC2DA00805334 /* SMBSound.mp4 */,
 				B53F8F2126EFA46600805334 /* Views */,
 				B53F8F1F26EFA45400805334 /* Controllers */,
 				B53F8F1E26EFA43D00805334 /* Resources */,
@@ -188,6 +191,7 @@
 				B53F8F1726EFA42B00805334 /* LaunchScreen.storyboard in Resources */,
 				B53F8F2F26EFC20D00805334 /* ben-del.mp4 in Resources */,
 				B53F8F1426EFA42B00805334 /* Assets.xcassets in Resources */,
+				B53F8F3226EFC2DA00805334 /* SMBSound.mp4 in Resources */,
 				B53F8F2E26EFC20D00805334 /* kyle-del.mp4 in Resources */,
 				B53F8F2A26EFC20D00805334 /* izz-kyle.mp4 in Resources */,
 				B53F8F1226EFA42A00805334 /* Main.storyboard in Resources */,
