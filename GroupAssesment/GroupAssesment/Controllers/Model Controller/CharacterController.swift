@@ -12,13 +12,13 @@ class CharacterController {
     
     static var character: [Character] {
         
-        let ben = Character(name: "Ben", bio: "Ţ̸̡̢̢̻͎̰̳̦̯͑̌̍̅̃̕͝͠ẖ̶̤̤͈͗̉͊͜ẹ̸͓̳̱͋̊̃̍̽̓̕͝ͅ ̸̻̤͕̬̑́̀̓͌̍̏̕d̷͙̪͎̜̼̘̱̤̳͓͆̈́̈́̑̅̈́̀́͝e̷̢̋̂̈́́̿̄͗̓̈́͝r̸̛͚͈̩̘͆̿͑̂͜â̵̟̦̭̓̕ͅn̸̝͇͉̘̘͐̓́͘͘g̶̲̫͖̱̮̤̯͎̦̈́͋̅̈̏͜ė̵̡̠͉̘͋̈́̐͘d̴̡̛͔̠̖͈̻̟̹͑̓͆͒͆ ̸̥̉̉̓̈́̚͝p̵͔̬̘̹̈́̎̄̒̆̓̚͝ś̸̭̳̗͔̦̼̩̳͂̾̓̓͗͆͘ͅẙ̴̢̛͙̪̜͉̼̋͛͒̔̔̕c̸̻̉̎h̷͈̹͇͕͑ö̸̢͉̝͇̮̳͈͍̝̣́̐͐͑͝͝p̵͉̗͇̖̳̥̭̯͈͛̍̈́̂̾͑̕͝â̶͙̩͚̬̜͓̈́́̉̈͜t̸̲̺̦͖̜͕̝͖͉̒̇ͅḧ̵̹̒͋̈́̔̋", photo: UIImage(named: "pokeBen"), hp: 120, armor: 10)
+        let ben = Character(name: "Ben", bio: "K̸̡͚̺̗̝̪̻͚̟͌͐̆̒̃͆̚͝n̸̦̜̪̫͋͂̑̏̅̊̚͝ó̸̡̞̥̻͇̪̫̬̝̽w̸̘̏s̶̛͍̲͆́̈́̀̈́̈́̑̕ ̶̻̩̋͆̊̎̋w̸̢̰͕͎͚̻̟̞̻͐̈́̀͛̓͑̈́͠ḧ̶̩́͛́̉̐͂̅͠ͅǎ̸̰̹͒̑̏̿̄͆̇t̶͇͂̈́́̈́͊̊͂͆͜ ̵̡̯̩̥͓͈̦͖͆̌̌̂͋̐͐̎͘y̵̮̝̹̪͍͋̍͘o̸̲͌̍͑̈̈́̔̊̓u̷̼͕͚͚̩͓͓͔̟̗͛̋̉͋ ̶̹̾̒͌͆̆̇̚͘ḑ̴̝̹̠̯̰͎̩̝̾̊́͂̈́͌̑́̊ỉ̵̛͉̳͕̈́̃͋͛d̷̤̯̜̼̦͌̒̉̄̒͑̈́̊̆", photo: UIImage(named: "bigBen"), hp: 120, armor: 10, photoTwo: UIImage(named: "bigBen"), wins: 0, losses: 0)
         
-        let delstun = Character(name: "Delstun", bio: "Happens to be here.", photo: UIImage(named: "pokeDel"), hp: 120, armor: 10)
+        let delstun = Character(name: "Delstun", bio: "ℍ𝕒𝕡𝕡𝕖𝕟𝕤 𝕥𝕠 𝕓𝕖 𝕙𝕖𝕣𝕖.", photo: UIImage(named: "pokeDel"), hp: 120, armor: 10, photoTwo: UIImage(named: "pokeDel"), wins: 0, losses: 0)
         
-        let kyle = Character(name: "Kyle", bio: "The Fungi Expert, and a fun guy.", photo: UIImage(named: "pokeKyle"), hp: 100, armor: 10)
+        let kyle = Character(name: "Kyle", bio: "𝒯𝒽𝑒 𝐹𝓊𝓃𝑔𝒾 𝐸𝓍𝓅𝑒𝓇𝓉 🍄, and a fun guy.", photo: UIImage(named: "pokeKyle"), hp: 100, armor: 10, photoTwo: UIImage(named: "pokeKyle"), wins: 0, losses: 0)
         
-        let israel = Character(name: "Israel", bio: "The Banana Bandit, I promise its a banana.", photo: UIImage(named: "pokeIs"), hp: 10, armor: 150)
+        let israel = Character(name: "Israel", bio: "ƬΉΣ BΛПΛПΛ BΛПDIƬ 🍌, I promise its a banana.", photo: UIImage(named: "pokeIs"), hp: 10, armor: 150, photoTwo: UIImage(named: "pokeIs"), wins: 0, losses: 0)
         
         let characterNames = [ben, delstun, kyle, israel]
         
