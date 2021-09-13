@@ -28,7 +28,7 @@ class ResultsViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(true)
-        playAlarm()
+        //playAlarm()
     }
     
     //MARK: - METHODS
@@ -39,14 +39,14 @@ class ResultsViewController: UIViewController {
         characterImageView.image = character.photo
     }
     
-    func playAlarm() {
-        // need to declare local path as url
-        let url = Bundle.main.url(forResource: "boo", withExtension: "m4a")
-        // now use declared path 'url' to initialize the player
-        audio = AVPlayer.init(url: url!)
-        // after initialization play audio its just like click on play button
-        audio.play()
-    }
+//    func playAlarm() {
+//        // need to declare local path as url
+//        let url = Bundle.main.url(forResource: "boo", withExtension: "m4a")
+//        // now use declared path 'url' to initialize the player
+//        audio = AVPlayer.init(url: url!)
+//        // after initialization play audio its just like click on play button
+//        audio.play()
+//    }
     
     /*
     // MARK: - Navigation
